@@ -6,6 +6,15 @@
   text-decoration: none;
 }
 
+img {
+  width: 60px;
+  height: 60px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .form__container {
   display: flex;
   padding: 16px;
