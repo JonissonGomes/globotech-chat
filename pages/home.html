@@ -4,71 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<<<<<<< HEAD
-    <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/home.css" />
-    <link rel="stylesheet" href="../styles/aside.css" />
-    <link rel="stylesheet" href="../assets/uol.gif" />
-=======
     <link rel="stylesheet" href="../assets/css/global.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/home.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/chat.css" />
     <link rel="stylesheet" href="../assets/css/aside.css" />
->>>>>>> 7bd6d4b2359bb52c3abc8adf479afeabea68ab4f
+    <link rel="stylesheet" href="../assets/css/form.css" />
+
     <title>Bate papo Uol</title>
   </head>
 
   <body>
-    <header>
-      <figure class="logo">
+    <header class="header">
+      <figure class="header__logo">
         <img src="../assets/img/uol.gif" alt="Logo" />
       </figure>
-      <h1>Bate Papo Uol</h1>
+      <h1 class="header__title">Bate Papo Uol</h1>
     </header>
 
     <nav class="nav">
-<<<<<<< HEAD
-      <a href="#" class="child-nav1">voltar</a>
-      <h2 class="child-nav2">Chat 90's</h2>
-=======
-      <a href="#" class="child-nav1">
-        <p>Voltar</p>
-      </a>
-      <h2 class="child-nav2">
-        <p>Chat 90's</p>
-      </h2>
->>>>>>> 7bd6d4b2359bb52c3abc8adf479afeabea68ab4f
+      <a href="#" class="nav__back">Voltar</a>
+      <h2 class="nav__title">Chat 90's</h2>
     </nav>
 
-    <main>
-      <section class="container">
-        <section class="batepapo">
-          <section class="participante">
-            <p class="nomeParticipante">Leandro Karnal</p>
-            <section class="containerChat">
-              <p class="mensagem">Belíssima noite</p>
-              <p class="horario">12:52</p>
-            </section>
-          </section>
+    <main class="container radius__4">
+      <section class="chat__container radius__4">
+        <section class="chat-messages__container radius__4">
+          <div class="chat-message__container radius__4">
+            <p class="chat-message__user">Leandro Karnal</p>
+            <div class="chat-message__content__container">
+              <p class="chat-message__text">Belíssima noite</p>
+              <p class="chat-message__hour">12:45</p>
+            </div>
+          </div>
 
-          <section class="participante">
-            <p class="nomeParticipante">Leandro Karnal</p>
-            <section class="containerChat">
-              <p class="mensagem">Belíssima noite</p>
-              <p class="horario">12:52</p>
-            </section>
-          </section>
+          <div class="chat-message__container radius__4">
+            <p class="chat-message__user">Leandro Karnal</p>
+            <div class="chat-message__content__container">
+              <p class="chat-message__text">Belíssima noite</p>
+              <p class="chat-message__hour">12:52</p>
+            </div>
+          </div>
 
-          <section class="participante">
-            <p class="nomeParticipante">Leandro Karnal</p>
-            <section class="containerChat">
-              <p class="mensagem">Belíssima noite</p>
-              <p class="horario">12:52</p>
-            </section>
-          </section>
+          <div class="chat-message__container radius__4">
+            <p class="chat-message__user">Leandro Karnal</p>
+            <div class="chat-message__content__container">
+              <p class="chat-message__text">Belíssima noite</p>
+              <p class="chat-message__hour">12:59</p>
+            </div>
+          </div>
         </section>
 
-        <aside>
-          <h2>Participantes</h2>
+        <aside class="chat-participants__container radius__4">
+          <h3 class="chat-participants__title">Participantes</h3>
           <ul>
             <li>&nbsp&nbspLeandro Karnal</li>
             <li>&nbsp&nbspAdda Lovelace</li>
@@ -80,11 +69,11 @@
 
       <form class="form__container">
         <input
-          class="form__input"
+          class="form__input radius__4"
           type="text"
           placeholder="Enviar mensagem..."
         />
-        <button class="form__submit" type="submit">Enviar</button>
+        <button class="form__submit radius__4" type="submit">Enviar</button>
       </form>
     </main>
   </body>

@@ -6,61 +6,15 @@
   text-decoration: none;
 }
 
-<<<<<<< HEAD:styles/global.css
 body {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-}
-
-img {
-  width: 60px;
-  height: 60px;
-=======
-.logo img {
-  width: 100px;
-  height: 100px;
->>>>>>> 7bd6d4b2359bb52c3abc8adf479afeabea68ab4f:assets/css/global.css
-}
-
-h1 {
+  height: 100vh;
   font-family: "Open Sans", sans-serif;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.form__container {
-  display: flex;
-  padding: 16px;
-  flex: 1;
-}
-
-.form__input {
-  padding: 8px 16px;
-  border: 1px solid #ccc;
+.radius__4 {
   border-radius: 4px;
-  transition: border-color 0.2s ease-in-out;
-}
-
-.form__input:hover {
-  border: 1px solid #aaa;
-}
-
-.form__submit {
-  border: 1px solid #ccc;
-  margin-left: 16px;
-  padding: 8px 16px;
-  border-radius: 4px;
-  transition: all 0.2s ease-in-out;
-}
-
-.form__submit:hover {
-  border: 1px solid #aaa;
-  filter: brightness(0.9);
 }

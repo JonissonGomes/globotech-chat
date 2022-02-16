@@ -1,0 +1,12 @@
+.nav {
+  width: 60vw;
+}
+
+.nav__back {
+  color: #4c4c4c;
+}
+
+.nav__title {
+  display: inline-block;
+  margin-left: 10px;
+}
