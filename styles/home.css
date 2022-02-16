@@ -1,82 +1,69 @@
 header {
-    align-items: center;
-    margin-left: 44%;
+  align-items: center;
 }
 
-nav{
-    margin-left: 16%;
-    display: flex;
-    align-items: center;
+.nav {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 18%;
 }
 
 .participante {
-    margin-top: 2%;
-    margin-left: 1%;
-    margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-bottom: 2%;
 }
 
 .nomeParticipante {
-    color: green;
-    font-size: 14pt;
-    width: 40vw;   
-    margin: 0;
-    margin-bottom: 4px; 
+  color: green;
+  font-size: 14pt;
+  width: 40vw;
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 .containerChat {
-    display: flex;    
+  display: flex;
 }
 
 main {
-    margin-left: 14%;
-    display: flex;
-    border: 1px solid black;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  border: 1px solid black;
+  padding: 16px;
 }
 
-.child-nav1{
-    margin-left: 15px;
-    color: black;
-    display:inline-block;
-    text-decoration: none;
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.mensagem{
-    width: 100%;
+.batepapo {
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.child-nav1 {
+  margin-left: 15px;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.mensagem {
+  width: 100%;
 }
 
 .horario {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-aside {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-  
-ul {
-    list-style: none;
-    padding: 0;
-}
-  
-li {
-    display: flex;
-    align-items: center;
-}
-  
-li:before {
-    content: "\2022";
-    font-size: 30px;
-    color: #48f542;
-}
-
-
-.child-nav2{
-    margin-left: 10px;
-    display:inline-block;
+.child-nav2 {
+  margin-left: 10px;
+  display: inline-block;
 }
