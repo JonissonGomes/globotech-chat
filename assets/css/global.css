@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+<<<<<<< HEAD:styles/global.css
 body {
   display: flex;
   align-items: center;
@@ -16,6 +17,11 @@ body {
 img {
   width: 60px;
   height: 60px;
+=======
+.logo img {
+  width: 100px;
+  height: 100px;
+>>>>>>> 7bd6d4b2359bb52c3abc8adf479afeabea68ab4f:assets/css/global.css
 }
 
 h1 {
