@@ -22,6 +22,7 @@ fetchData("https://run.mocky.io/v3/55e3f9c9-df86-46c9-941a-ea43a7595e19").then(d
   const chatMessage = document.getElementById("chat-message");
   const roomList = document.getElementById("room-list");
 
+  
   messages.map(message => {
     roomList.innerHTML += `<li class="room-list__item">${message.userName}</li>`;
     chatMessage.innerHTML += `
@@ -32,7 +33,7 @@ fetchData("https://run.mocky.io/v3/55e3f9c9-df86-46c9-941a-ea43a7595e19").then(d
           ${message.message}
         </p>
         <p class="chat-message__hour">
-          ${message.date}
+          ${new Date(message.date).toLocaleTimeString()}
         </p>
       </div>
     </li>`;
