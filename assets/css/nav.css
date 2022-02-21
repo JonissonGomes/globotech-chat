@@ -4,10 +4,17 @@
 
 .nav__back {
   color: #4c4c4c;
+  margin-right: 14px;
 }
 
 .nav__title {
   display: inline-block;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.nav_icon_back {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
